@@ -1,3 +1,4 @@
 site_name: POC MkDocs
+site_url: https://docs.ppsk.fr/
 theme:
   name: material
