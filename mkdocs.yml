@@ -1,0 +1,3 @@
+site_name: POC MkDocs
+theme:
+  name: material
