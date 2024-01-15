@@ -1,4 +1,4 @@
-MKDOCS_IMAGE := squidfunk/mkdocs-material
+MKDOCS_IMAGE := squidfunk/mkdocs-material:9.5.4
 USER := $(shell id -u):$(shell id -g)
 PORT := 8000
 DOCKER_ARGS := --rm -it --volume ${PWD}:/docs --user $(USER) -p $(PORT):8000
